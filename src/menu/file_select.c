@@ -153,7 +153,7 @@ static unsigned char textEraseFileButton[][16] = { {TEXT_ERASE_FILE}, {TEXT_ERAS
 static unsigned char textSoundModes[][8] = { { TEXT_STEREO }, { TEXT_MONO }, { TEXT_HEADSET } };
 #endif
 
-static unsigned char textSingleStar[] = { TEXT_FILE_MARIO_A };
+static unsigned char textSingleStar[] = { TEXT_SINGLE_STAR_MODE };
 static unsigned char textFullGameMode[] = { TEXT_FULL_GAME_MODE };
 
 #ifndef VERSION_EU
