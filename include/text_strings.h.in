@@ -4,6 +4,12 @@
 #include "text_menu_strings.h"
 
 /**
+ * MOVEMENT MASTERY
+ */
+#define TEXT_SINGLE_STAR_MODE _("SINGLE STAR")
+#define TEXT_FULL_GAME_MODE _("FULL GAME")
+
+/**
  * Global Symbols
  */
 #define TEXT_ZERO _("0")
