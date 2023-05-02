@@ -486,13 +486,6 @@ void init_mario_after_warp(void) {
             play_cap_music(SEQUENCE_ARGS(4, SEQ_EVENT_POWERUP));
         }
 
-#if BUGFIX_KOOPA_RACE_MUSIC
-        if (gCurrLevelNum == LEVEL_BOB
-            && get_current_background_music() != SEQUENCE_ARGS(4, SEQ_LEVEL_SLIDE) && sTimerRunning) {
-            play_music(SEQ_PLAYER_LEVEL, SEQUENCE_ARGS(4, SEQ_LEVEL_SLIDE), 0);
-        }
-#endif
-
         if (sWarpDest.levelNum == LEVEL_CASTLE && sWarpDest.areaIdx == 1
 #ifndef VERSION_JP
             && (sWarpDest.nodeId == 31 || sWarpDest.nodeId == 32)
@@ -782,9 +775,9 @@ s16 level_trigger_warp(struct MarioState *m, s32 warpOp) {
                 break;
 
             case WARP_OP_RELOAD:
-                sDelayedWarpTimer = 4;
+                sDelayedWarpTimer = 2;
                 sSourceWarpNodeId = WARP_NODE_F0;
-                play_transition(WARP_TRANSITION_FADE_INTO_COLOR, 0x3C, 0x00, 0x00, 0x00);
+                play_transition(WARP_TRANSITION_FADE_INTO_COLOR, 0x10, 0x00, 0x00, 0x00);
                 break;
 
             case WARP_OP_STAR_EXIT:
@@ -1402,7 +1395,8 @@ s32 lvl_set_current_level(UNUSED s16 arg0, s32 levelNum) {
         return 0;
     }
 
-    return 1;
+    // TODO skip act selector here:
+    return 0;
 }
 
 /**

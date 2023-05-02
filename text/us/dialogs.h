@@ -26,43 +26,20 @@ current level.\n\
 Have fun!"))
 
 DEFINE_DIALOG(DIALOG_001, 1, 5, 30, 200, _("\
-This movement-based ROM\n\
-hack challenges your\n\
-control of mario in\n\
-various ways.\n\
-Press L to reset the\n\
-current level.\n\
-Have fun!"))
+Don't be surprised\n\
+by being warped back\n\
+at the speedkick\n\
+practice section\n\
+straight ahead."))
 
 DEFINE_DIALOG(DIALOG_002, 1, 4, 95, 200, _("\
-Text Placeholder"))
+Hi"))
 
-DEFINE_DIALOG(DIALOG_003, 1, 5, 95, 200, _("\
-Thank you, Mario! The Big\n\
-Bob-omb is nothing but a\n\
-big dud now! But the\n\
-battle for the castle has\n\
-just begun.\n\
-Other enemies are holding\n\
-the other Power Stars. If\n\
-you recover more Stars,\n\
-you can open new doors\n\
-that lead to new worlds!\n\
-My Bob-omb Buddies are\n\
-waiting for you. Be sure\n\
-to talk to them--they'll\n\
-set up cannons for you."))
+DEFINE_DIALOG(DIALOG_003, 1, 4, 95, 200, _("\
+Hi"))
 
-DEFINE_DIALOG(DIALOG_004, 1, 3, 95, 200, _("\
-We're peace-loving\n\
-Bob-ombs, so we don't use\n\
-cannons.\n\
-But if you'd like\n\
-to blast off, we don't\n\
-mind. Help yourself.\n\
-We'll prepare all of the\n\
-cannons in this course for\n\
-you to use. Bon Voyage!"))
+DEFINE_DIALOG(DIALOG_004, 1, 4, 95, 200, _("\
+Hi"))
 
 DEFINE_DIALOG(DIALOG_005, 1, 3, 30, 200, _("\
 Hey, Mario! Is it true\n\

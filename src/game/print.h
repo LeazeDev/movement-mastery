@@ -55,17 +55,12 @@
 #define _27s(frames) (FPS * 27 + frames)
 #define _28s(frames) (FPS * 28 + frames)
 #define _29s(frames) (FPS * 29 + frames)
-#define _30s(frames) (FPS * 30 + frames)
-#define _31s(frames) (FPS * 31 + frames)
-#define _32s(frames) (FPS * 32 + frames)
-#define _33s(frames) (FPS * 33 + frames)
-#define _34s(frames) (FPS * 34 + frames)
-#define _35s(frames) (FPS * 35 + frames)
-#define _36s(frames) (FPS * 36 + frames)
-#define _37s(frames) (FPS * 37 + frames)
-#define _38s(frames) (FPS * 38 + frames)
-#define _39s(frames) (FPS * 39 + frames)
-#define _40s(frames) (FPS * 40 + frames)
+#define _30s(seconds) ((FPS + seconds) * 30)
+#define _40s(seconds) ((FPS + seconds) * 40)
+#define _50s(seconds) ((FPS + seconds) * 50)
+#define _60s(seconds) ((FPS + seconds) * 60)
+#define _70s(seconds) ((FPS + seconds) * 70)
+#define _80s(seconds) ((FPS + seconds) * 80)
 
 #define RANK_NONE 0x9F
 #define RANK_NONE_2 GLYPH_MULTIPLY
