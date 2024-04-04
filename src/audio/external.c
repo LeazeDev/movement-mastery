@@ -312,7 +312,8 @@ u8 sBackgroundMusicDefaultVolume[] = {
     60,  // SEQ_EVENT_CUTSCENE_ENDING
     65,  // SEQ_MENU_FILE_SELECT
     0,   // SEQ_EVENT_CUTSCENE_LAKITU (not in JP)
-    40,   // SEQ_SMO_CRAZY_CAP
+    40,  // SEQ_ASTRO_MAN_FULL
+    40,  // SEQ_SEINFELD_THEME
 };
 
 STATIC_ASSERT(ARRAY_COUNT(sBackgroundMusicDefaultVolume) == SEQ_COUNT,

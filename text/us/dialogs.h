@@ -26,11 +26,7 @@ current level.\n\
 Have fun!"))
 
 DEFINE_DIALOG(DIALOG_001, 1, 5, 30, 200, _("\
-Don't be surprised\n\
-by being warped back\n\
-at the speedkick\n\
-practice section\n\
-straight ahead."))
+Hi."))
 
 DEFINE_DIALOG(DIALOG_002, 1, 4, 95, 200, _("\
 Hi"))

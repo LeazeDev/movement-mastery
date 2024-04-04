@@ -44,7 +44,8 @@ enum SeqId {
     SEQ_EVENT_CUTSCENE_ENDING,        // 0x20
     SEQ_MENU_FILE_SELECT,             // 0x21
     SEQ_EVENT_CUTSCENE_LAKITU,        // 0x22 (not in JP)
-    SEQ_SMO_CRAZY_CAP,                // 0x23
+    SEQ_ASTRO_MAN_FULL,               // 0x23
+    SEQ_SEINFELD_THEME,               // 0x24
     SEQ_COUNT
 };
 
