@@ -21,9 +21,9 @@
 .word  0x00000000               /* Unknown */
 .word  0x00000000               /* Unknown */
 #ifdef VERSION_SH
-.ascii "MOVEMENTMASTERY4    "   /* Internal ROM name */
+.ascii "MOVEMENTMASTERY5    "   /* Internal ROM name */
 #else
-.ascii "MOVEMENT MASTERY 4  "   /* Internal ROM name */
+.ascii "MOVEMENT MASTERY 5  "   /* Internal ROM name */
 #endif
 .word  0x00000000               /* Unknown */
 .word  0x0000004E               /* Cartridge */
