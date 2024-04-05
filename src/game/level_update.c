@@ -864,9 +864,10 @@ s16 level_trigger_warp(struct MarioState *m, s32 warpOp) {
                 break;
         }
 
-        if (val04 && gCurrDemoInput == NULL) {
-            fadeout_music((3 * sDelayedWarpTimer / 2) * 8 - 2);
-        }
+        // EDIT: disabled music reset by default on warp
+        // if (val04 && gCurrDemoInput == NULL) {
+        //     fadeout_music((3 * sDelayedWarpTimer / 2) * 8 - 2);
+        // }
         recentWarpSourceNodeId = sSourceWarpNodeId;
     }
 
